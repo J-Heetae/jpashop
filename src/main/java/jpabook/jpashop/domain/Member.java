@@ -14,7 +14,7 @@ public class Member {
 
     @Id
     @GeneratedValue
-    @Column(name = "member_id", unique = true)
+    @Column(name = "member_id")
     private Long id;
 
     private String username;
